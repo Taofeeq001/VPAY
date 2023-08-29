@@ -1,19 +1,35 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
+import { trusted } from './Data'
 
 const Hero = () => {
   return (
-    <div className='container flex-col flex lg:flex-row w-full items-center justify-between'>
+    <div className='flex lg:flex-col'>
+      <div className='container flex-col bg-[#FBFBFB] flex lg:flex-row w-full items-center justify-between'>
         <div className='w-full lg:w-[45%]'>
-            <h1 className='capitalize text-[45px] font-extrabold'>Easy, near-zero-fee payments for businesses</h1>
-            <p className='text text-2xl text-[gray]'>Reaching Africa remotest parts with digital financial services</p>
+          <h1 className='capitalize  text-[30px] text-center lg:text-[45px] lg:text-left font-extrabold'>Easy, near-zero-fee payments for businesses</h1>
+          <p className='text text-2xl text-[gray] text-center lg:text-left'>Reaching Africa remotest parts with digital financial services</p>
         </div>
         <div className='hero-img'>
-            <Image className='relative w-[50%] top-[10%] right-[-40%]' height={150} width={150} src="/Images/guy 1.svg"/>
-            <Image height={150} width={150} className='absolute top-[40%] right-[35%] w-[11%]' src="/Images/Frame 55.svg"/>
-            <Image height={150} width={150} className='absolute top-[50%] right-[13%] w-[11%]' src="/Images/Frame 57.svg"/>
+          <Image className='relative w-[100%] lg:w-[65%] lg:top-[8%] md:right-[-5%] lg:right-[-29%]' height={150} width={150} src="/Images/Hero Image.svg"/>
         </div>
+      </div>
+      <div className='container absolute top-[90%] lg:top-[85%] left-[10%] flex flex-col items-center justify-center gap-11 py-[20px] bg-white rounded-xl'>
+        <h3 className='capitalize'>trusted by brands around the world</h3>
+        <div className='grid grid-cols-2 lg:grid-cols-4 gap-[10px] items-center w-full lg:w-[70%]'>
+          {
+            trusted.map(d=>{
+              return(
+                <div className='flex gap-2 justify-center items-center'>
+                  <Image width={35} height={35} src={d.img}/>
+                  <h5>{d.title}</h5>
+                </div>
+              )
+            })
+          }
+        </div>
+      </div>
     </div>
   )
 }

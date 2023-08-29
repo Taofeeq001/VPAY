@@ -10,7 +10,7 @@ export const Navbar = () => {
   }
 
   return (
-    <div className='container w-full py-4 flex justify-between items-center shadow-lg px-7 rounded-lg mt-3'>
+    <div className='container w-full py-4 flex justify-between items-center shadow-xxl bg-white sticky top-10 px-7 rounded-lg z-50'>
       <div>
         <Image height={150} width={150} src="/Images/msme logo.png" />
       </div>
