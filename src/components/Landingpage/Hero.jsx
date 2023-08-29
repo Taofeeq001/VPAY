@@ -15,7 +15,7 @@ const Hero = () => {
           <Image className='relative w-[100%] lg:w-[65%] lg:top-[8%] md:right-[-5%] lg:right-[-29%]' height={150} width={150} src="/Images/Hero Image.svg"/>
         </div>
       </div>
-      <div className='container absolute top-[90%] lg:top-[85%] left-[3%] lg:left-[10%] flex flex-col items-center justify-center gap-11 py-[20px] bg-white rounded-xl'>
+      <div className='container absolute top-[90%] lg:top-[85%] left-[0] lg:left-[10%] flex flex-col items-center justify-center gap-11 py-[20px] bg-white rounded-xl'>
         <h3 className='capitalize'>trusted by brands around the world</h3>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-[10px] items-center w-full lg:w-[70%]'>
           {
