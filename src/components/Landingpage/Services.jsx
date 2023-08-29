@@ -10,16 +10,16 @@ const Services = () => {
             <h1 className='capitalize text lg:text-4xl font-extrabold lg:w-[45%] text-center'>Foster growth with payment solutions through our Integrations</h1>
             <p className='capitalize text text-[grey] text-[20px] lg:w-[45%] text-center'>Build custom payment platforms by simply integrating our well-documented APIs and SDKs giving your clients and customers several payment options to choose from.</p>
         </div>
-        <div>
-            <div>
+        <div className='container'>
+            <div className='w-full flex flex-row justify-between gap-16 '>
                 {
                     services.map(d=>{
                         return(
-                            <div>
-                                <Image width={150} height={150} src={d.image} />
+                            <div className='w-[50%] border-green-100 flex flex-col text-left shadow-lg p-20'>
+                                <Image width={150} height={150} className='w-[80%]' src={d.image} />
                                 <h1>{d.heading}</h1>
-                                <p>{d.body}</p>
-                                <button>{d.btn} </button>
+                                <p className='w-[80%]'>{d.body}</p>
+                                <button>{d.btn}</button>
                             </div>
                         )
                     })
