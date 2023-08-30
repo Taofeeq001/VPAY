@@ -1,4 +1,5 @@
 import Committed from '@/components/Landingpage/Committed'
+import Footer from '@/components/Landingpage/Footer'
 import Footer1 from '@/components/Landingpage/Footer1'
 import Growth from '@/components/Landingpage/Growth'
 import Hero from '@/components/Landingpage/Hero'
@@ -19,6 +20,7 @@ export default function Home() {
       <PaymentSol/>
       <Testimony/>
       <Footer1/>
+      <Footer/>
     </main>
   )
 }
