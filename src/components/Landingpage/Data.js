@@ -85,3 +85,35 @@ export const services = [
         btn: 'Read Doc'
     },
 ]
+export const payment = [
+    {
+        icon: 'Images/Group 14.svg',
+        heading: 'for co-operative',
+        para: 'Voucherpay helps cooperative systems receive payments online no matter the size.'
+    },
+    {
+        icon: 'Images/Group 15.svg',
+        heading: 'for entrepreneur',
+        para: 'Enjoy hassle-free digital payments and payouts with Voucherpay as an entrepreneur.'
+    },
+    {
+        icon: 'Images/Group 12.svg',
+        heading: 'for co-operation',
+        para: 'Unlock the convenience of hitch-free online payments and payouts for your corporation.'
+    },
+    {
+        icon: 'Images/Group 16.svg',
+        heading: 'for School',
+        para: 'Manage secured payments for schools seamlessly with Voucherpay digital payments.'
+    },
+    {
+        icon: 'Images/Group 13.svg',
+        heading: 'for Government',
+        para: 'We provide a secured digital payment solution for gov’t institutions to receive payments quickly.'
+    },
+    {
+        icon: 'Images/Group 18.svg',
+        heading: 'for co-operative',
+        para: 'Enjoy quick and transparent payments for your agency platform with Voucherpay.'
+    },
+]
