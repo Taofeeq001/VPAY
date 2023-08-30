@@ -1,3 +1,5 @@
+import {FiArrowLeft} from 'react-icons/fi'
+import {FiArrowRight} from 'react-icons/fi'
 
 export const trusted = [
     {
@@ -116,4 +118,36 @@ export const payment = [
         heading: 'for co-operative',
         para: 'Enjoy quick and transparent payments for your agency platform with Voucherpay.'
     },
+]
+export const testimonial = [
+    {
+        image: '/Images/MrsJoy.svg',
+        icon: '/Images/image2.svg',
+        company: 'Truss',
+        para: 'Our integration with VoucherPay aligns with the kind of solutions we look for in the cooperative system. With VoucherPay trust is retained and goals are being met while empowering the cooperative system.',
+        name: 'Mrs. Joy',
+        Position: "CEO of Truss",
+        btnRight: <FiArrowRight/>,
+        btnLeft: <FiArrowLeft/>
+    },
+    {
+        image: '/Images/Karo.svg',
+        icon: '/Images/SmartAgric.svg',
+        company: 'SmartAgric',
+        para: 'SmartAgric has grown rapidly thanks to our integration with VoucherPay, payments are now easy and more convenient for our customers, they no longer have to leave our website to make payments.',
+        name: 'Mrs. Karo A.P',
+        Position: "CEO of Smartagric",
+        btnRight: <FiArrowRight/>,
+        btnLeft: <FiArrowLeft/>
+    },
+    {
+        image: '/Images/Chidinma.svg',
+        icon: '/Images/image2.svg',
+        company: 'Quick',
+        para: 'Since we integrated with Voucherpay, our customers now enjoy seamless payment solutions and have several payment options to choose from, fostering growth for their businesses.',
+        name: 'Mrs. Chidinma',
+        Position: "CEO of Quick",
+        btnRight: <FiArrowRight/>,
+        btnLeft: <FiArrowLeft/>
+    }
 ]
