@@ -74,13 +74,13 @@ export const growth = [
 export const services = [
     {
         image: 'Images/Rectangle 12.svg',
-        heading:'API integration',
+        heading:'API Integration',
         body: 'With our well-documented APIs developers can easily build tailored solutions that suit their business. Our APIs are specially designed to suit the payment needs of businesses and several industries that wish to leverage digital payments to expand their customer outreach.',
         btn: 'Read Doc'
     },
     {
         image: 'Images/Rectangle 13.svg',
-        heading:'SDK integration',
+        heading:'SDK Integration',
         body: 'Our sophisticated SDKs help developers create excellent payment applications and hardware tailored to your preference. With our SDKs, your business can extend its market reach by meeting your business’s digital payment requirements.',
         btn: 'Read Doc'
     },
