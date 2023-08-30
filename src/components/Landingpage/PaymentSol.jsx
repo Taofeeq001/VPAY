@@ -13,7 +13,7 @@ const PaymentSol = () => {
                 <h1 className='w-full lg:w-[50%] text text-4xl'>Secured Payment Solutions for Different Entities</h1>
                 <p className='w-full lg:w-[55%] text text-[gray] text-xl'>Voucherpay offers industry-specific, yet customizable, digital payment solutions that are designed to be easy, fast, and secure, catering to your specific needs and preferences.</p>
             </div>
-            <div className='grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap:5 lg:gap-9 lg: mb-[2%] '>
+            <div className='grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-7 lg:gap-9 lg: mb-[2%] '>
                 {
                     payment.map(d=>{
                         return(
