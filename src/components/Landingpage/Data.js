@@ -1,6 +1,25 @@
 import {FiArrowLeft} from 'react-icons/fi'
 import {FiArrowRight} from 'react-icons/fi'
 
+
+export const dropdown1 = [
+    {
+        icon: '/Images/Api Icon.svg',
+        text: 'API Integration'
+    },
+    {
+        icon: '/Images/sdk.svg',
+        text: 'SDK Integration'
+    },
+    {
+        icon: '/Images/Device.svg',
+        text: 'Device'
+    },
+    {
+        icon: '/Images/Software.svg',
+        text: 'Software'
+    },
+]
 export const trusted = [
     {
         img: '/Images/msme.png',
