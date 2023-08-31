@@ -27,15 +27,15 @@ const Services = () => {
                 })
             }
         </div>
-        <div className='container flex flex-col lg:flex-row justify-between p-[5rem] items-center rounded-xl bg-[#F9FBFC]'>
-            <div className='w-[50%] flex flex-col gap-6'>
-                <h1 className='text capitalize font-bold w-full lg:w-[50%]'>solution for over 10K+ businesses</h1>
-                <p className='text text-xl text-[grey] w-[50%]'>Let’s give you the best solution for your business</p>
+        <div className='container flex flex-col gap-10 lg:gap-0 lg:flex-row justify-between p-[5rem] items-center rounded-xl bg-[#F9FBFC]'>
+            <div className= 'w-full lg:w-[50%] flex flex-col gap-6'>
+                <h1 className='text capitalize font-bold w-full text-xl lg:text-3xl lg:w-[50%]'>solution for over 10K+ businesses</h1>
+                <p className='text text-xl text-[grey] w-full lg:w-[50%]'>Let’s give you the best solution for your business</p>
                 <div>
                     <button className='btn text-white'>Get Started</button>
                 </div>
             </div>
-            <Image width={150} height={150} className='w-[90%] lg:w-[40%]' src="/Images/Solution.svg"/>
+            <Image width={150} height={150} className='w-[100%] lg:w-[40%]' src="/Images/Solution.svg"/>
         </div>
     </div>
   )

@@ -5,10 +5,10 @@ import { committed } from './Data'
 const Committed = () => {
   return (
     <div className='px-[10px] lg:px-[30px]'>
-        <div className='mt-[9rem] lg:mt-[5%] bg-white rounded-xl py-[20px] px-[35px] flex flex-col'>
-            <div className='flex flex-col lg:flex-row w-full justify-between items-center'>
+        <div className='lg:mt-[5%] bg-white rounded-xl py-[12px] px-[35px] flex flex-col'>
+            <div className='flex flex-col gap-5 lg:flex-row w-full justify-between items-center'>
                 <Image width={150} height={150} className='w-full lg:w-[43%]' src="/Images/Payment Image.svg"/>
-                <div className='w-full text-center text lg:text-left lg:w-[40%]'>
+                <div className='w-full gap-4 text-center text lg:text-left lg:w-[40%]'>
                     <button className='text-[15px] font-bold bg-[#00CCFF] text-white rounded-xl p-[15px]'>
                         <a href="">Why VoucherPay</a>
                     </button>
