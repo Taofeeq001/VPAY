@@ -1,8 +1,14 @@
+import Others from '@/components/AboutPage/Others'
+import AboutHero from '@/components/AboutPage/aboutHero'
 import React from 'react'
+
 
 const page = () => {
   return (
-    <div>this is about page</div>
+    <div className='bg-[#FBFBFB] pt-10 w-[100%]'>
+      <AboutHero/>
+      <Others/>
+    </div>
   )
 }
 

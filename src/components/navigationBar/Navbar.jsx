@@ -51,14 +51,14 @@ export const Navbar = () => {
               <Image width={10} height={10} src='/Images/Vector.svg'/>
             </p>
             <div className={openCompany? "block":'hidden'}>
-              <div className='bg-[white] p-[40px] rounded-lg absolute left-[1%] top-16 w-[600px] grid grid-cols-2 gap-3'>
+              <div className='bg-[white] p-[40px] rounded-lg absolute left-[1%] top-16 w-[450px] grid grid-cols-2 gap-3'>
                 {
                   dropdown2.map(d=>{
                     return(
-                      <div className='flex gap-5 w-full items-center'>
+                      <a className='flex gap-5 w-full items-center' href={d.link} >
                         <Image width={30} height={30} src={d.icon} />
                         <h6>{d.text}</h6>
-                      </div>
+                      </a>
                     )
                   })
                 }

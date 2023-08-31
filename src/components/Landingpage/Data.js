@@ -23,27 +23,33 @@ export const dropdown1 = [
 export const dropdown2 = [
     {
         icon: '/Images/about.svg',
-        text: 'About'
+        text: 'About',
+        link:'/about'
     },
     {
         icon: '/Images/pricing.svg',
-        text: 'Pricing'
+        text: 'Pricing',
+        link: '/pricing'
     },
     {
         icon: '/Images/contact.svg',
-        text: 'Contact'
+        text: 'Contact',
+        link: '/contact'
     },
     {
         icon: '/Images/FAQ.svg',
-        text: 'FAQ'
+        text: 'FAQ',
+        link: '/faq'
     },
     {
         icon: '/Images/Career.svg',
-        text: 'Career'
+        text: 'Career',
+        link: '/career'
     },
     {
         icon: '/Images/blog.svg',
-        text: 'Blog'
+        text: 'Blog',
+        link: '/blog'
     },
 ]
 
