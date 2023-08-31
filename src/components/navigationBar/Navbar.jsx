@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import Image from 'next/image'
 import { dropdown1, dropdown2 } from '../Landingpage/Data'
@@ -8,6 +8,7 @@ export const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [openProduct, setOpenProduct] = useState(false)
   const [openCompany, setOpenCompany] = useState(false)
+  const [display, setDisplay] = useState(false)
   const handleToggle = ()=>{
     setToggle(!toggle)
   }
@@ -15,8 +16,24 @@ export const Navbar = () => {
     setOpenProduct(!openProduct)
   }
   const companyClick = () =>{
-    setOpenCompany(!openCompany)
+    setOpenCompany(!openCompany) 
   }
+
+
+  // useEffect(()=>{
+  //   document.addEventListener("click", ()=>{
+  //     setOpenCompany(!openCompany)
+  //   })
+  //   return()=>{
+  //     document.removeEventListener("click", ()=>{
+  //       setOpenCompany(!openCompany)
+  //     })
+  //   }
+  // })
+
+
+  
+
 
   return (
     <div className='container w-full py-4 flex justify-between items-center shadow-xxl bg-white sticky top-10 px-7 rounded-lg z-50'>
@@ -46,7 +63,7 @@ export const Navbar = () => {
             </div>
           </div>
           <div className='relative'>
-            <p onClick={companyClick} className='flex gap-2 cursor-pointer'>
+            <p  onClick={companyClick} className='flex gap-2 cursor-pointer'>
               Company
               <Image width={10} height={10} src='/Images/Vector.svg'/>
             </p>
