@@ -11,7 +11,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className='bg-[#FBFBFB] py-10'>
+    <main className='bg-[#FBFBFB] pt-10'>
       <Navbar />
       <Hero/>   
       <Committed/>   
