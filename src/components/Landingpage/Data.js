@@ -20,6 +20,33 @@ export const dropdown1 = [
         text: 'Software'
     },
 ]
+export const dropdown2 = [
+    {
+        icon: '/Images/about.svg',
+        text: 'About'
+    },
+    {
+        icon: '/Images/pricing.svg',
+        text: 'Pricing'
+    },
+    {
+        icon: '/Images/contact.svg',
+        text: 'Contact'
+    },
+    {
+        icon: '/Images/FAQ.svg',
+        text: 'FAQ'
+    },
+    {
+        icon: '/Images/Career.svg',
+        text: 'Career'
+    },
+    {
+        icon: '/Images/blog.svg',
+        text: 'Blog'
+    },
+]
+
 export const trusted = [
     {
         img: '/Images/msme.png',

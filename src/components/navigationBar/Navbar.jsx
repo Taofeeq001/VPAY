@@ -2,16 +2,20 @@
 import React, { useState } from 'react'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import Image from 'next/image'
-import { dropdown1 } from '../Landingpage/Data'
+import { dropdown1, dropdown2 } from '../Landingpage/Data'
 
 export const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [openProduct, setOpenProduct] = useState(false)
+  const [openCompany, setOpenCompany] = useState(false)
   const handleToggle = ()=>{
     setToggle(!toggle)
   }
   const productClick = () =>{
     setOpenProduct(!openProduct)
+  }
+  const companyClick = () =>{
+    setOpenCompany(!openCompany)
   }
 
   return (
@@ -41,17 +45,31 @@ export const Navbar = () => {
               </div>
             </div>
           </div>
-          <div>
-            <a className='flex gap-2' href="">
+          <div className='relative'>
+            <p onClick={companyClick} className='flex gap-2 cursor-pointer'>
               Company
               <Image width={10} height={10} src='/Images/Vector.svg'/>
-            </a>
+            </p>
+            <div className={openCompany? "block":'hidden'}>
+              <div className='bg-[white] p-[40px] rounded-lg absolute left-[1%] top-16 w-[600px] grid grid-cols-2 gap-3'>
+                {
+                  dropdown2.map(d=>{
+                    return(
+                      <div className='flex gap-5 w-full items-center'>
+                        <Image width={30} height={30} src={d.icon} />
+                        <h6>{d.text}</h6>
+                      </div>
+                    )
+                  })
+                }
+              </div>
+            </div>
           </div>
           <div>
-            <a className='flex gap-2' href="">
+            <p className='flex gap-2'>
               Company
               <Image width={10} height={10} src='/Images/Vector.svg'/>
-            </a>
+            </p>
           </div>
         </div>
         <div className='flex gap-[3rem]'>
