@@ -3,7 +3,7 @@ import Nigeriaprops from './Nigeriaprops'
 
 const Others = () => {
   return (
-    <div className='px-[1rem]'>
+    <div className='px-[1rem] mt-[40px]'>
         <div>
             <Nigeriaprops
                 btn1 = 'Case Study'
