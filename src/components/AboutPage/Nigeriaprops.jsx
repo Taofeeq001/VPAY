@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Nigeriaprops = (props) => {
   return (
-    <div className='px-[1rem] py-[50px] gap-5 flex lg:flex-row flex-col w-full justify-around bg-white items-center'>
+    <div className='px-2 lg:px-[6rem] py-[50px] gap-5 flex lg:flex-row flex-col w-full justify-around bg-white items-center'>
         <div className='w-full lg:w-1/2 flex flex-col gap-3'>
             <div>
                 <button className='btn'>{props.btn1}</button>

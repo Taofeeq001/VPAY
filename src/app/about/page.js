@@ -1,3 +1,4 @@
+import Corevalue from '@/components/AboutPage/Corevalue'
 import Others from '@/components/AboutPage/Others'
 import AboutHero from '@/components/AboutPage/aboutHero'
 import React from 'react'
@@ -8,6 +9,7 @@ const page = () => {
     <div className='bg-[#FBFBFB] pt-10 w-[100%]'>
       <AboutHero/>
       <Others/>
+      <Corevalue/>
     </div>
   )
 }
