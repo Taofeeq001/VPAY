@@ -52,10 +52,10 @@ export const Navbar = () => {
                 {
                   dropdown1.map(d=>{
                     return(
-                      <div className='flex gap-5 w-full items-center'>
+                      <a href={d.link} className='flex gap-5 w-full items-center'>
                         <Image width={30} height={30} src={d.icon} />
                         <h6>{d.text}</h6>
-                      </div>
+                      </a>
                     )
                   })
                 }

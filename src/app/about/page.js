@@ -1,6 +1,10 @@
 import Corevalue from '@/components/AboutPage/Corevalue'
 import Others from '@/components/AboutPage/Others'
+import Voucherteam from '@/components/AboutPage/Voucherteam'
 import AboutHero from '@/components/AboutPage/aboutHero'
+import Footer from '@/components/Landingpage/Footer'
+import Footer1 from '@/components/Landingpage/Footer1'
+import Solution from '@/components/Landingpage/Solution'
 import React from 'react'
 
 
@@ -10,6 +14,10 @@ const page = () => {
       <AboutHero/>
       <Others/>
       <Corevalue/>
+      <Voucherteam/>
+      <Solution/>
+      <Footer1/>
+      <Footer/>
     </div>
   )
 }

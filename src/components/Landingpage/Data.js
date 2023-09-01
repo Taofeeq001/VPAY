@@ -5,19 +5,23 @@ import {FiArrowRight} from 'react-icons/fi'
 export const dropdown1 = [
     {
         icon: '/Images/Api Icon.svg',
-        text: 'API Integration'
+        text: 'API Integration',
+        link: '/api'
     },
     {
         icon: '/Images/sdk.svg',
-        text: 'SDK Integration'
+        text: 'SDK Integration',
+        link: '/sdk'
     },
     {
         icon: '/Images/Device.svg',
-        text: 'Device'
+        text: 'Device',
+        link: '/device'
     },
     {
         icon: '/Images/Software.svg',
-        text: 'Software'
+        text: 'Software',
+        link: '/software'
     },
 ]
 export const dropdown2 = [

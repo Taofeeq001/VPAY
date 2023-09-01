@@ -5,6 +5,7 @@ import Growth from '@/components/Landingpage/Growth'
 import Hero from '@/components/Landingpage/Hero'
 import PaymentSol from '@/components/Landingpage/PaymentSol'
 import Services from '@/components/Landingpage/Services'
+import Solution from '@/components/Landingpage/Solution'
 import Testimony from '@/components/Landingpage/Testimony'
 import { Navbar } from '@/components/navigationBar/Navbar'
 import Image from 'next/image'
@@ -17,6 +18,7 @@ export default function Home() {
       <Committed/>   
       <Growth/>
       <Services/>
+      <Solution/>
       <PaymentSol/>
       <Testimony/>
       <Footer1/>
