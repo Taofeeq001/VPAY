@@ -16,7 +16,7 @@ const Nigeriaprops = (props) => {
                 <button className='btn'>{props.btn2}</button>
             </div>
         </div>
-        <Image width={150} height={150} className='w-[70%] lg:w-[20%]' src={props.Image} />
+        <Image width={500} height={500} className='' src={props.Image} />
     </div>
   )
 }

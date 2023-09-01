@@ -28,7 +28,7 @@ const Others = () => {
             btn2= 'Our Vision'
             heading = "Digital payment solutions for businesses and cooperatives"
             paragraph = "We are providing digital payment solutions for businesses and cooperatives, minimizing payment hurdles and bridging the gap between the underserved and technology. Achieving swift and seamless payment processing is the goal for us at VoucherPay, by building an excellent API solution that can be integrated to suit your preferences and easy-to-navigate payment platforms."
-            Image = "/Images/DigiPayment.svg"
+            Image = "/Images/DigPayment.svg"
         />
       </div>
 
