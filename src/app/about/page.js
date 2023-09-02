@@ -5,12 +5,14 @@ import AboutHero from '@/components/AboutPage/aboutHero'
 import Footer from '@/components/Landingpage/Footer'
 import Footer1 from '@/components/Landingpage/Footer1'
 import Solution from '@/components/Landingpage/Solution'
+import { Navbar } from '@/components/navigationBar/Navbar'
 import React from 'react'
 
 
 const page = () => {
   return (
     <div className='bg-[#FBFBFB] pt-10 w-[100%]'>
+      <Navbar/>
       <AboutHero/>
       <Others/>
       <Corevalue/>
