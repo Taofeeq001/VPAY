@@ -34,7 +34,7 @@ const DeviceOther = () => {
        <div className='px-[10px] lg:px-[30px]'>
             <div className='flex flex-col lg:flex-row lg:items-center w-full justify-between mt-[2rem] lg:mt-[5%] bg-white rounded-xl py-[20px] px-[35px]'>
                 <Image width={150} height={150} className='w-[100%] lg:w-[40%]' src="/Images/boost.svg" />
-                <div className='w-full text-center text lg:text-left lg:w-[40%] flex flex-col gap-5 '>
+                <div className='w-full text lg:text-left lg:w-[40%] flex flex-col gap-5 '>
                     <div>
                         <button className='text-[15px] font-bold bg-[#00CCFF] text-white rounded-xl p-[15px]'>
                             <a href="">POS SYSTEMS</a>
@@ -86,7 +86,7 @@ const DeviceOther = () => {
         <div className='px-[10px] lg:px-[30px]'>
             <div className='flex flex-col lg:flex-row lg:items-center w-full justify-between mt-[2rem] lg:mt-[5%] bg-white rounded-xl py-[20px] px-[35px]'>
                 <Image width={150} height={150} className='w-[100%] lg:w-[40%]' src="/Images/simplify.svg" />
-                <div className='w-full text-center text lg:text-left lg:w-[40%] flex flex-col gap-5 '>
+                <div className='w-full  text lg:text-left lg:w-[40%] flex flex-col gap-5 '>
                     <div>
                         <button className='text-[15px] font-bold bg-[#00CCFF] text-white rounded-xl p-[15px]'>
                             <a href="">ATM</a>
